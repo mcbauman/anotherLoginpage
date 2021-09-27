@@ -1,0 +1,76 @@
+body{
+    background-image: url(./images/dino-reichmuth-A5rCN8626Ck-unsplash.jpg);
+    background-size: 100%;
+    background-position: bottom;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+}
+
+main{
+    
+}
+
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.fromTo{
+    display: flex;
+    justify-content: left;
+}
+
+#to{
+    
+}
+
+label{
+    background-color: red;
+    color: white;
+    padding:8px 16px;
+    margin: 0;
+    margin-left: 10px;
+}
+
+input{
+    border: none;
+    width: 250px;
+    font-size: 1.5rem;
+    padding:8px 16px;
+    margin: 0;
+}
+
+.buttons{
+    text-align: right;
+}
+
+#reset{
+    border: red solid 2px;
+    color: red;
+    background-color: rgba(255, 255, 255, 0.685);
+    font-size: 1.5rem;
+    padding:8px 16px;
+}
+
+#reset:hover{
+    background-color: rgba(255, 255, 255, 0.911);
+    transform: translate(0%, -5%);
+}
+
+#submit{
+    background-color: red;
+    color: white;
+    font-size: 1.5rem;
+    padding:8px 16px;
+    margin: 26px;
+    
+}
+#submit:hover{
+    background-color: brown;
+    transform: translate(0%, -5%);
+}
