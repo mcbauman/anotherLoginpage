@@ -52,9 +52,10 @@ input{
 #reset{
     border: red solid 2px;
     color: red;
+    width: 200px;
     background-color: rgba(255, 255, 255, 0.685);
     font-size: 1.5rem;
-    padding:8px 16px;
+    padding:8px 8px;
 }
 
 #reset:hover{
@@ -63,11 +64,12 @@ input{
 }
 
 #submit{
+    width: 120px;
     background-color: red;
     color: white;
     font-size: 1.5rem;
-    padding:8px 16px;
-    margin: 26px;
+    padding: 8px 8px;
+    margin: 26px 0 0 20px ;
     
 }
 #submit:hover{
